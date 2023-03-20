@@ -37,4 +37,4 @@ jobs:
 
     # Run the notebook and check for errors
     - name: Test notebook
-      run: jupyter nbconvert --execute --inplace prevent_the_bully.ipynb
+      run: jupyter nbconvert --execute --inplace salaries_predict.ipynb
